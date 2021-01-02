@@ -1,13 +1,13 @@
-(function () {
+(function() {
   'use strict';
 
   const gulp = require('gulp');
   const saveLicense = require('uglify-save-license');
   const $ = require('gulp-load-plugins')({
-    pattern: ['gulp-*', 'gulp.*', 'del', '@jswork/gulp-*']
+    pattern: ['gulp-*', 'gulp.*', 'del', '@feizheng/gulp-*', '@jswork/gulp-*']
   });
 
-  gulp.task('scripts', function () {
+  gulp.task('scripts', function() {
     return gulp
       .src('src/*.js')
       .pipe($.jswork.pkgHeader())

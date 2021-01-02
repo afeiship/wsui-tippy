@@ -1,5 +1,5 @@
 {
-  "name": "@jswork/wsui-tippy",
+  "name": "@afeiship/wsui-tippy",
   "version": "1.0.0",
   "description": "Theme for tippyjs style.",
   "homepage": "https://github.com/afeiship/wsui-tippy",
@@ -27,7 +27,6 @@
     "uglify-save-license": "^0.4.1"
   },
   "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://npm.pkg.github.com"
   }
 }
