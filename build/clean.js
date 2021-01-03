@@ -1,9 +1,8 @@
 (function() {
   'use strict';
-
-  const gulp = require('gulp');
-  const $ = require('gulp-load-plugins')({
-    pattern: ['gulp-*', 'gulp.*', 'del']
+  var gulp = require('gulp');
+  var $ = require('gulp-load-plugins')({
+    pattern: ['gulp-*', 'gulp.*', 'del'],
   });
 
   //clean
