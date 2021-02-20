@@ -3,6 +3,6 @@
 
 ## installation
 ```shell
-npm install @afeiship/wsui-tippy
+npm install @jswork/wsui-tippy
 ```
 
