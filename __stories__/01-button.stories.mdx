@@ -1,7 +1,8 @@
 import { Meta } from '@storybook/addon-docs/blocks';
-import '../src/index.scss';
+import ReactHtml from '@jswork/react-html';
+import './style.scss';
 
 <Meta title="Example/01-button" />
 
 ## show
-<button> test </button>
+<ReactHtml>{require('./components/button.html')}</ReactHtml>

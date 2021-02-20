@@ -1,0 +1,11 @@
+.wsui-anchor {
+  color: #5183f5;
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 2px solid rgb(226, 234, 253);
+
+  &:hover {
+    background: rgb(240, 244, 254);
+    border-bottom: 2px solid rgb(33, 97, 242);
+  }
+}

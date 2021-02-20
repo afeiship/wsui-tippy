@@ -1,0 +1,22 @@
+.wsui-button {
+  -webkit-tap-highlight-color: transparent;
+  font-family: inherit;
+  line-height: 1.15;
+  overflow: visible;
+  text-transform: none;
+  background: white;
+  color: rgb(81, 131, 245);
+  border: 2px dashed rgb(81, 131, 245);
+  will-change: opacity;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 16px;
+  border-radius: 4px;
+  transition: background 0.2s ease 0s, color 0.1s ease 0s;
+  margin: 5px;
+
+  &:hover {
+    background: rgb(81, 131, 245);
+    color: white;
+  }
+}

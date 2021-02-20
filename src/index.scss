@@ -1,9 +1,12 @@
 /*wsui-components Start*/
+
+@import '~@jswork/wsui-reset';
 @import "./variables";
-@import "./base";
 
 @import "./components/button.scss";
 @import "./components/navbar.scss";
 @import "./components/title.scss";
 @import "./components/code.scss";
+@import "./components/blockquote.scss";
+@import "./components/anchor.scss";
 /*wsui-components End*/
