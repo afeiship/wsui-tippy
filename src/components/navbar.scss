@@ -1,0 +1,35 @@
+.wsui-navbar {
+  display: block;
+  width: 250px;
+  color: white;
+  overflow-y: auto;
+  box-shadow: rgba(0, 32, 64, 0.25) 4px 0px 32px 0px;
+  backdrop-filter: blur(15px) saturate(180%);
+  background: linear-gradient(rgba(121, 148, 198, 0.6), rgb(86, 87, 145));
+  li {
+    line-height: 1.6;
+    > a {
+      padding-left: 25px;
+      display: block;
+      padding: 4px 25px;
+      font-size: 17px;
+      border: 1px dashed transparent;
+      text-decoration: none;
+      transition: all 0.3s;
+      color: #fff;
+
+      &:hover {
+        border-bottom-color: transparent;
+        -webkit-text-decoration: none;
+        text-decoration: none;
+        background: rgba(255, 255, 255, 0.15);
+      }
+
+      &.is-active {
+        font-weight: 600;
+        background: #fff;
+        color: rgb(119, 97, 209);
+      }
+    }
+  }
+}
