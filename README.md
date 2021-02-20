@@ -6,3 +6,5 @@
 npm install @jswork/wsui-tippy
 ```
 
+## documentation
+- https://afeiship.github.io/wsui-tippy/
