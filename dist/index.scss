@@ -3,7 +3,7 @@
  * description: Theme for tippyjs style.
  * homepage: https://github.com/afeiship/wsui-tippy
  * version: 1.0.0
- * date: 2021-02-20 15:24:59
+ * date: 2021-02-20 15:42:10
  * license: MIT
  */
 /*wsui-components Start*/
@@ -116,14 +116,41 @@
 
 .wsui-banner {
   position: relative;
+  z-index: 0;
   background-image: radial-gradient(circle at 0% 20%, #a09eff, #4884f0, #b3e0fa);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 25px 0;
   text-align: center;
   margin-bottom: 50px;
+  overflow: hidden;
   color: white; }
+  .wsui-banner:before {
+    content: "";
+    position: absolute;
+    top: -50px;
+    display: block;
+    background-image: url(https://atomiks.github.io/tippyjs/static/bubbles-4989859a4b6961599ff97c983f6f5947.svg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1; }
   .wsui-banner .is-wave {
     margin: -9% 0 -32px; }
+
+.wsui-badge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.95);
+  color: #7761d1;
+  font-weight: bold;
+  margin: 16px 0;
+  padding: 6px 12px;
+  border-radius: 16px;
+  font-size: 14px; }
+
+.wsui-block {
+  background: #eeeefa;
+  padding: 25px 16px;
+  border-radius: 8px; }
 
 /*wsui-components End*/
