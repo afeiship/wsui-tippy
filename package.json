@@ -13,7 +13,7 @@
     "release": "release-it",
     "docs": "build-storybook -o docs"
   },
-  "main": "dist/index.js",
+  "main": "dist/index.scss",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.12.17",
