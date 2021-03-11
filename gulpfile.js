@@ -9,5 +9,5 @@
     require('./build/' + file);
   });
 
-  gulp.task('default', gulp.series(['clean', 'styles', 'docs']));
+  gulp.task('default', gulp.series(['clean', 'styles']));
 })();
