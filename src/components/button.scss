@@ -15,6 +15,7 @@
   transition: background 0.2s ease 0s, color 0.1s ease 0s;
   margin: 5px;
 
+  &.is-active,
   &:hover {
     background: rgb(81, 131, 245);
     color: white;
