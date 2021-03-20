@@ -11,3 +11,9 @@ gulpfile.js
 .editorconfig
 .prettierrc
 .release-it.json
+
+
+.storybook
+__stories__
+docs
+.prettierignore
