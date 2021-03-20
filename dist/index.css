@@ -2,8 +2,8 @@
  * name: @jswork/wsui-tippy
  * description: Theme for tippyjs style.
  * homepage: https://github.com/afeiship/wsui-tippy
- * version: 1.0.0
- * date: 2021-03-11 23:08:50
+ * version: 1.0.1
+ * date: 2021-03-20 21:17:26
  * license: MIT
  */
 /*wsui-components Start*/
@@ -39,8 +39,8 @@
   .wsui-navbar li {
     line-height: 1.6; }
     .wsui-navbar li > a {
+      display: flex;
       padding-left: 25px;
-      display: block;
       padding: 4px 25px;
       font-size: 17px;
       border: 1px dashed transparent;
