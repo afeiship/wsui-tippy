@@ -9,8 +9,8 @@
   li {
     line-height: 1.6;
     > a {
+      display: flex;
       padding-left: 25px;
-      display: block;
       padding: 4px 25px;
       font-size: 17px;
       border: 1px dashed transparent;
