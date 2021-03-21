@@ -15,6 +15,12 @@
   transition: background 0.2s ease 0s, color 0.1s ease 0s;
   margin: 5px;
 
+  &.is-small{
+    font-weight: 400;
+    font-size: 14px;
+    padding: 4px 10px;
+  }
+
   &.is-active,
   &:hover {
     background: rgb(81, 131, 245);

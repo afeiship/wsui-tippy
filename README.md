@@ -1,10 +1,10 @@
-# wsui-tippy
+# tippy-tippy
 > Theme for tippyjs style.
 
 ## installation
 ```shell
-npm install @jswork/wsui-tippy
+npm install @jswork/tippy-tippy
 ```
 
 ## documentation
-- https://afeiship.github.io/wsui-tippy/
+- https://afeiship.github.io/tippy-tippy/
