@@ -2,8 +2,8 @@
  * name: @jswork/tippy-tippy
  * description: Theme for tippyjs style.
  * homepage: https://github.com/afeiship/tippy-tippy
- * version: 1.0.3
- * date: 2021-03-20 23:35:53
+ * version: 1.0.4
+ * date: 2021-03-21 12:30:23
  * license: MIT
  */
 /*tippy-components Start*/
@@ -23,6 +23,12 @@
   border-radius: 4px;
   transition: background 0.2s ease 0s, color 0.1s ease 0s;
   margin: 5px; }
+  .tippy-button.is-small {
+    border-width: 1px;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 4px 10px;
+    border-radius: 3px; }
   .tippy-button.is-active, .tippy-button:hover {
     background: #5183f5;
     color: white; }
