@@ -16,9 +16,11 @@
   margin: 5px;
 
   &.is-small{
+    border-width: 1px;
     font-weight: 400;
     font-size: 14px;
     padding: 4px 10px;
+    border-radius: 3px;
   }
 
   &.is-active,
