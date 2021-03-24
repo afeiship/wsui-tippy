@@ -3,7 +3,7 @@
  * description: Theme for tippyjs style.
  * homepage: https://github.com/afeiship/tippy-tippy
  * version: 1.0.4
- * date: 2021-03-21 12:36:50
+ * date: 2021-03-24 09:24:06
  * license: MIT
  */
 /*tippy-components Start*/
@@ -128,7 +128,6 @@
   background-size: cover;
   padding: 25px 0;
   text-align: center;
-  margin-bottom: 50px;
   overflow: hidden;
   color: white; }
   .tippy-banner:before {
