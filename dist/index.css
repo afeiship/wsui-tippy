@@ -2,8 +2,8 @@
  * name: @jswork/wsui-tippy
  * description: Theme for tippyjs style.
  * homepage: https://github.com/afeiship/tippy-tippy
- * version: 1.0.4
- * date: 2021-03-24 09:24:06
+ * version: 1.0.5
+ * date: 2021-03-24 10:46:41
  * license: MIT
  */
 /*tippy-components Start*/
@@ -110,6 +110,9 @@
   color: #333333;
   border-radius: 0px 8px 8px 0px;
   padding: 14px 20px; }
+  .tippy-blockquote.is-primary {
+    border-left-color: #5183f5;
+    background: #fff; }
 
 .tippy-anchor {
   color: #5183f5;
@@ -148,7 +151,6 @@
   background: rgba(255, 255, 255, 0.95);
   color: #7761d1;
   font-weight: bold;
-  margin: 16px 0;
   padding: 6px 12px;
   border-radius: 16px;
   font-size: 14px; }
