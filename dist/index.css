@@ -3,7 +3,7 @@
  * description: Theme for tippyjs style.
  * homepage: https://github.com/afeiship/tippy-tippy
  * version: 1.0.6
- * date: 2021-03-25 21:54:02
+ * date: 2021-04-03 17:59:53
  * license: MIT
  */
 /*tippy-components Start*/
@@ -103,14 +103,21 @@
 .tippy-blockquote {
   line-height: 1.15;
   -webkit-tap-highlight-color: transparent;
-  border-left: 8px solid #ffc56d;
-  background: #fff5c5;
   color: #333333;
   border-radius: 0px 8px 8px 0px;
-  padding: 14px 20px; }
+  padding: 14px 20px;
+  transition: border 0.3s, background 0.3s;
+  border-left: 8px solid #ffc56d;
+  background: #fff6e7; }
+  .tippy-blockquote.is-hoverable:hover {
+    border-left-color: #ffb13a;
+    background: #fff2dd; }
   .tippy-blockquote.is-primary {
     border-left-color: #5183f5;
-    background: #fff; }
+    background: #f5f8fe; }
+    .tippy-blockquote.is-primary.is-hoverable:hover {
+      border-left-color: #2161f2;
+      background: #f0f4fe; }
 
 .tippy-anchor {
   color: #5183f5;
@@ -152,6 +159,20 @@
   padding: 6px 12px;
   border-radius: 16px;
   font-size: 14px; }
+
+.tippy-tag {
+  color: #4e1cc7;
+  background: #ede6fc;
+  border: 1px dashed #cbbaf5;
+  font-family: Menlo, "Dank Mono", Inconsolata, "Operator Mono", Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
+  padding: 0.35em 0.5em;
+  border-radius: 0.25em;
+  line-height: inherit;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s; }
+  .tippy-tag:hover {
+    background: #cbbaf5; }
 
 .tippy-block {
   background: #eeeefa;

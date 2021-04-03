@@ -1,0 +1,18 @@
+.#{$prefix}-tag {
+  $color: #4e1cc7;
+  color: $color;
+  background:  lighten($color, 50%);
+  border:1px dashed lighten($color, 40%);
+  font-family: Menlo, "Dank Mono", Inconsolata, "Operator Mono", Consolas, "Andale Mono WT", "Andale Mono",
+    "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono",
+    "Nimbus Mono L", "Courier New", Courier, monospace;
+  padding: 0.35em 0.5em;
+  border-radius: 0.25em;
+  line-height: inherit;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s;
+  &:hover{
+    background: lighten($color: $color, $amount: 40%);
+  }
+}
