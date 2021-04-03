@@ -1,14 +1,29 @@
 .#{$prefix}-blockquote {
   line-height: 1.15;
   -webkit-tap-highlight-color: transparent;
-  border-left: 8px solid rgb(255, 197, 109);
-  background: rgb(255, 245, 197);
   color: rgb(51, 51, 51);
   border-radius: 0px 8px 8px 0px;
   padding: 14px 20px;
+  transition: border 0.3s, background 0.3s;
+  $default-color: #ffc56d;
+  border-left: 8px solid $default-color;
+  background: lighten($default-color, 24%);
+  &.is-hoverable {
+    &:hover {
+      border-left-color: darken($default-color, 10%);
+      background: lighten($default-color, 22%);
+    }
+  }
 
   &.is-primary {
-    border-left-color: #5183f5;
-    background: #fff;
+    $primary-color: #5183f5;
+    border-left-color: $primary-color;
+    background: lighten($primary-color, 34%);
+    &.is-hoverable {
+      &:hover {
+        border-left-color: darken($primary-color, 10%);
+        background: lighten($primary-color, 33%);
+      }
+    }
   }
 }
