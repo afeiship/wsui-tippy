@@ -2,8 +2,8 @@
  * name: @jswork/wsui-tippy
  * description: Theme for tippyjs style.
  * homepage: https://github.com/afeiship/tippy-tippy
- * version: 1.0.7
- * date: 2021-04-03 18:00:31
+ * version: 1.0.8
+ * date: 2021-04-04 12:18:40
  * license: MIT
  */
 /*tippy-components Start*/
@@ -173,6 +173,9 @@
   transition: background 0.3s; }
   .tippy-tag:hover {
     background: #cbbaf5; }
+  .tippy-tag.is-small {
+    padding: 0.15em 0.5em;
+    font-size: 12px; }
 
 .tippy-block {
   background: #eeeefa;
