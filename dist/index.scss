@@ -2,8 +2,8 @@
  * name: @jswork/wsui-tippy
  * description: Theme for tippyjs style.
  * homepage: https://github.com/afeiship/tippy-tippy
- * version: 1.0.8
- * date: 2021-04-04 12:18:40
+ * version: 1.0.9
+ * date: 2021-04-05 21:52:12
  * license: MIT
  */
 /*tippy-components Start*/
@@ -161,20 +161,20 @@
   font-size: 14px; }
 
 .tippy-tag {
-  color: #4e1cc7;
-  background: #ede6fc;
-  border: 1px dashed #cbbaf5;
+  color: #fff;
+  background: #5586f4;
+  border: 1px solid #5586f4;
   font-family: Menlo, "Dank Mono", Inconsolata, "Operator Mono", Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
-  padding: 0.35em 0.5em;
+  padding: 0.35em 0.6em;
   border-radius: 0.25em;
   line-height: inherit;
   font-size: 14px;
   cursor: pointer;
   transition: background 0.3s; }
   .tippy-tag:hover {
-    background: #cbbaf5; }
+    background: #2e6bf2; }
   .tippy-tag.is-small {
-    padding: 0.15em 0.5em;
+    padding: 0.25em 0.6em;
     font-size: 12px; }
 
 .tippy-block {
